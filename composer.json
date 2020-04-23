@@ -1,0 +1,37 @@
+{
+    "name": "kayrunm/laravel-qule",
+    "description": "A package for cleaner GraphQL use in your Laravel application.",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Kieran Marshall",
+            "email": "kieran@kieranmarshall.co.uk"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": "^7.2",
+        "ext-json": "*",
+        "guzzlehttp/guzzle": "^6.5",
+        "kayrunm/qule": "~1.0",
+        "laravel/framework": "^6.0"
+    },
+    "require-dev": {
+        "orchestra/testbench": "^4.0",
+        "phpunit/phpunit": "^8.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Kayrunm\\Qule\\Laravel\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Kayrunm\\Qule\\Laravel\\Tests\\": "tests"
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "prefer-stable": true
+}
