@@ -1,0 +1,39 @@
+{
+    "data": {
+      "customers": {
+        "edges": [
+          {
+            "node": {
+              "id": "gid://shopify/Customer/100000000001",
+              "firstName": "Foo",
+              "lastName": "Barson",
+              "email": "foo.barson@emailprovider.com",
+              "createdAt": "2018-09-13T15:22:27Z",
+              "updatedAt": "2019-10-01T14:01:18Z"
+            }
+          },
+          {
+            "node": {
+              "id": "gid://shopify/Customer/100000000002",
+              "firstName": "Baz",
+              "lastName": "Quxson",
+              "email": "baz.quxson@emailprovider.com",
+              "createdAt": "2018-09-13T15:22:27Z",
+              "updatedAt": "2019-10-01T14:01:18Z"
+            }
+          }
+        ]
+      }
+    },
+    "extensions": {
+      "cost": {
+        "requestedQueryCost": 7,
+        "actualQueryCost": 4,
+        "throttleStatus": {
+          "maximumAvailable": 1000,
+          "currentlyAvailable": 996,
+          "restoreRate": 50
+        }
+      }
+    }
+  }

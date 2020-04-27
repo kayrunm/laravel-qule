@@ -1,0 +1,23 @@
+{
+  "data": {
+    "customer": {
+      "id": "gid://shopify/Customer/100000000001",
+      "firstName": "Foo",
+      "lastName": "Barson",
+      "email": "foo.barson@emailprovider.com",
+      "createdAt": "2018-09-13T15:22:27Z",
+      "updatedAt": "2019-10-01T14:01:18Z"
+    }
+  },
+  "extensions": {
+    "cost": {
+      "requestedQueryCost": 1,
+      "actualQueryCost": 1,
+      "throttleStatus": {
+        "maximumAvailable": 1000,
+        "currentlyAvailable": 999,
+        "restoreRate": 50
+      }
+    }
+  }
+}

@@ -13,6 +13,7 @@
         "php": "^7.2",
         "ext-json": "*",
         "guzzlehttp/guzzle": "^6.5",
+        "jenssegers/model": "^1.3",
         "kayrunm/qule": "~1.0",
         "laravel/framework": "^6.0"
     },
